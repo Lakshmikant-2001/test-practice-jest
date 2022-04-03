@@ -1,4 +1,6 @@
 export function analyzeArray(array) {
+    if (!isAllNumbers(array))
+        return "";
     const length = array.length;
     const average = array.reduce((prev, curr) => {
         return prev += curr;
@@ -9,5 +11,11 @@ export function analyzeArray(array) {
     const max = array.reduce((prev, curr) => {
         return prev > curr ? prev : curr;
     });
-    return { length, average, min, max };
+    return { average, min, max, length };
+}
+
+function isAllNumbers(array) {
+    return array.every((curr) => {
+        return !isNaN(curr);
+    });
 }
