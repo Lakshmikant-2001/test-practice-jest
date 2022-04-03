@@ -2,8 +2,8 @@
 
 ### Jest tests for simple programs under [theOdinProject](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice) exercise.
 
--  [**functions**](https://github.com/Lakshmikant-2001/test-practice-jest/tree/main/__tests__) directory contains all exercise programs.
--  [**\_\_tests\_\_**](https://github.com/Lakshmikant-2001/test-practice-jest/tree/main/functions) directory contains test suits for all respective programs.
+-  [**functions**](https://github.com/Lakshmikant-2001/test-practice-jest/tree/main/functions) directory contains all exercise programs.
+-  [**\_\_tests\_\_**](https://github.com/Lakshmikant-2001/test-practice-jest/tree/main/__tests__) directory contains test suits for all respective programs.
 
 
 ### To run locally
@@ -20,6 +20,6 @@
 <br>
 
 **REFERENCE:**
-  - [JEST](https://jestjs.io/docs/) Documentation
+  - [JEST](https://jestjs.io/docs/getting-started) Documentation
 
 <hr>
